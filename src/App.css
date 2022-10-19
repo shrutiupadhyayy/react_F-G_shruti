@@ -1,0 +1,55 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('./img1.png');
+  
+  background-size: cover;
+  background-position: center;
+}
+
+form{
+background: rgba(255, 255, 255, 0.116);
+box-shadow: 0 8px 32px 0 rgba(253, 224, 223, 0.37);
+backdrop-filter: blur( 8px );
+-webkit-backdrop-filter: blur( 8px );
+   padding: 0px 50px;
+   border-radius: 7px;
+   font-size: 20px;
+}
+
+h1{
+  color: rgb(26, 25, 25);
+  font-size: 40px;
+}
+
+p{
+  font-size: 17px;
+}
+
+button{
+  background: #00ff37;
+color: #fff;
+border: 1px solid #eee;
+border-radius: 10px;
+text-shadow: none;
+font-size: 20px;
+text-align: center;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+table {
+  border: 2px solid rgb(0, 0, 0);
+  width: 800px;
+  height: 200px;
+}
+  
+th {
+  border-bottom: 1px solid black;
+}
+  
+td {
+  text-align: center;
+}
